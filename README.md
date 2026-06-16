@@ -1,11 +1,40 @@
+# Retail Intelligence - Interactive App
 
-  # User dashboard design
+This is the interactive frontend application for the Retail Intelligence & Market Basket Analysis project. It provides a user-friendly interface to explore product associations, customer segments, and business recommendations derived from the analysis.
 
-  This is a code bundle for User dashboard design. The original project is available at https://www.figma.com/design/k9eQYNNsaDSDlVGqaXKj17/User-dashboard-design.
+## Features
+- **Executive Overview** - KPI dashboard with key metrics
+- **Product Lookup** - Search products and see top 5 associated items with lift scores
+- **Customer Segment Explorer** - View all 7 customer segments with retention actions
+- **Bundle Discovery** - Find optimal product bundles
+- **Decision Assistant** - Filterable business recommendations
 
-  ## Running the code
+## Data Source
+This app uses:
+- `association_rules.csv` - Product association rules from the Apriori algorithm
+- `customer_segments.csv` - RFM-based customer segmentation results
 
-  Run `npm i` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
-  
+## Related Repository
+**Main Analysis Repository:** [Retail-Intelligence-Analysis](https://github.com/Osifo1/Market Basket Analysis)
+- Full data cleaning, EDA, Apriori algorithm implementation
+- RFM customer segmentation
+- Business recommendations and executive summary
+
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Recharts for visualizations
+
+## Local Development
+```bash
+npm install
+npm run dev
+
+
+## Author
+Goodness Osifo
+
+## License
+Educational/Portfolio use only
